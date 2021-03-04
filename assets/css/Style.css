@@ -1,0 +1,88 @@
+:root {
+    --headerbg: #FFF;
+    --headertxt: #000;
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    list-style: none;
+
+}
+
+body {
+
+    width: 100vw;
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+
+    padding: 2rem 1rem;
+
+    background-color: var(--headerbg);
+    color: var(--headertxt);
+    
+}
+
+.logo-container {
+    flex: 0 1 33.3%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    height: auto;
+}
+
+.logo-container img {
+    width: 20vw;
+}
+
+nav {
+    flex: 0 1 33.3%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+
+}
+
+ul {
+    
+
+}
+
+ul.horiz {
+    
+    height:1.1rem;
+
+}
+
+ul.horiz li {
+    display: inline;
+}
+
+ul.horiz li a {
+}
+
+a {
+ text-decoration: none;
+ font-weight: normal;
+ color: inherit;
+}
+
+a:hover {
+    color: #222222;
+}
+
+a:active {
+
+}
